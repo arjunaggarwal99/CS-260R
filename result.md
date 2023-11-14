@@ -78,8 +78,18 @@ Choosing one algorithm, you should train agents in `MetaDrive-Tut-[1,5,10,20,50,
 
 ![](curves/td3_gen.png)
 
+### Obervation:
+- The test curve generally follow the training curve with a noticeable drop in performance.
 
-[TODO]: Discuss the figure. Does it look normal? If not, why? Do you have any solution?
+### Analysis:
+- The difference between training and testing suggests that the agent's policy is not generalizing well to new scenes.
+
+### Potential Solution:
+- Gradually increasing the complexity of training scenes could help the agent build up a stronger policy that adapts better to complex testing scenes.
+
+### Conclusion:
+The generalization curve suggests that while the agent is capable of learning, it struggles to transfer that learning to new, unseen environments. Gradually increasing the complexity of training scenes could help the agent build up a stronger policy that adapts better to complex testing scenes.
+
 
 
 
