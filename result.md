@@ -18,7 +18,7 @@
 
 (20 points)
 
-![](curves/ppo_meta_drive_hard.png)
+![](curves/td3_meta_drive_hard.png)
 
 
 
@@ -32,27 +32,12 @@
 ![](curves/ppo_cartpole.png)
 
 
-
-
-
 ### PPO in MetaDrive-Tut-Hard-v0
 
 10 points
 
 
 ![](curves/ppo_meta_drive_hard.png)
-
-
-
-## Learning curves of GAIL
-
-### GAIL in MetaDrive-Tut-Easy-v0
-
-(20 points)
-
-![](curves/gail_meta_drive_easy.png)
-
-
 
 
 ## Generalization Experiment
